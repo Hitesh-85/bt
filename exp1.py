@@ -31,5 +31,5 @@ generate_rsa_keys()
 # python3 generate_keys.py
 
 # ls -> cat public.pem -> cat private.pem
-# openssl -pkey -in private.pem -text -noout
-# openssl -pkey -pubout -in public.pem -text -noout
+# openssl pkey -in private.pem -text -noout
+# openssl pkey -pubout -in public.pem -text -noout
